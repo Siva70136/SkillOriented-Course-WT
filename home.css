@@ -1,0 +1,9 @@
+pre{
+	font-size:20px;
+}
+a:focus{
+	background-color:green;
+}
+a:hover{
+	background-color:black;
+}

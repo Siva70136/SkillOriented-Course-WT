@@ -1,0 +1,37 @@
+div{
+	border:solid;
+	color:red;
+	margin:10px;
+	padding:5px;
+	background:#C4E1C5;
+	width:10%;
+	text-transform:uppercase;
+}
+p{
+	color:blue;
+	margin:10px;
+	padding:5px;
+	width:100px;
+	text-shadow:2px 2px;
+}
+.s{
+	padding:55px;
+	width:25%;
+	border-width:6px;
+
+}
+div:hover{
+	background:pink;
+	padding:5px;
+	
+}
+li{
+	list-style-type:none;
+	float:left;
+	margin:10px;
+}
+li:hover{
+	background:pink;
+	padding:5px;
+	
+}

@@ -1,0 +1,63 @@
+﻿<html>
+	<head>
+	</head>
+	<center>
+	<body bgcolor="pink">
+	
+	<p  style="color:red" >ENTER YOUR DETAILS</p><br><br>
+	<form  name="myform" >
+	First Name:<input type="text" name="p1" >
+	<br><br>
+	Last Name:<input type="text"name="p2" >
+	<br><br>
+	Rollno: <input type="number" name="p3" >
+	<br><br>
+	Age:<input type="number" name="p4" >
+	<br><br>
+	Mail Id:<input type="email" name="p5" >
+	<br><br>
+	Adress:<input type="address" name="p6" >
+	<br><br>
+	<label for="branch">choose your branch</label>
+	<select id="branch" id="p7">
+	<option  value="BRANCH">BRANCH</option>
+	<option value="CSE">CSE</option>
+	<option value="ECE">ECE</option>
+	<option value="EEE">EEE</option>
+	<option value="MECH">MECH</option>
+	<br>
+	<input type="button" value="submit"  onclick="did( )" >
+
+<br>
+<a href="content://com.coloros.filemanager/root/storage/emulated/0/HTML/siva1.html" >Register
+</a>
+	
+	
+	</form>
+	
+	<script>
+
+	function did(){  
+     let x= {"name":document.myform.p1.value,"lastname":document.myform.p2.value,"rollno":document.myform.p3.value,"age":document.myform.p4.value,"mail":document.myform.p5.value,"adress":document.myform.p6.value}  ;
+	//let obj=JSON.parse(x)  ;
+  
+	confirm("Is your details are correct"+"        "+"First Name:"+ x.name +
+	"        "+"Last Name:" + x.lastname +
+	"         "+"Rollno: "+x.rollno+
+	"         "+" Age:"+x.age+
+	"         "+"Mail Id"+x.mail+
+	"         "+"Adress:"+x.adress+
+	"Branch");
+	
+}
+	
+	</script>
+	</center>
+	</body>
+
+
+</html>
+
+
+
+
